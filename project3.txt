@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int r,c,n;
+        Scanner ob=new Scanner(System.in);
+        n=ob.nextInt();
+        for(r=1;r<=n;r++)
+        {
+            for(c=n;c>=r;c--)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+     }
+}
